@@ -28,6 +28,7 @@ body{
     .main{
         display: grid;
         grid-template-columns: repeat(2,50%);
+        place-items: center;
         padding: 0;
     }
 }
@@ -43,7 +44,7 @@ body{
 }
 @media screen and (min-width:1024px) {
     .img{
-        max-width: 120%;
+        width:650px;
         object-fit: cover;
     }
 }
@@ -63,8 +64,8 @@ body{
 }
 @media screen and (min-width:1024px) {
     .img::after{
-        width: 476px;
-        height: 448px;
+        width: 650px;
+        height: 510px;
         border-top-left-radius: 0;
         border-bottom-right-radius: 10px;
         bottom: 3px;
